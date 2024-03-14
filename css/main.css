@@ -1,0 +1,57 @@
+.root {
+    margin: 0 15px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader img {
+    width: 150px;
+}
+
+.logoHeader button {
+    background: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin-right: 20px; 
+    
+}
+
+.searchHeader {
+    width: 50%;
+}
+
+.searchHeader input {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+}
+
+.infoHeader {
+    width: 25%;
+}
+
+.d-none {
+    display: none;
+}
+
+.body {
+    display: flex;
+    margin: auto;
+}
